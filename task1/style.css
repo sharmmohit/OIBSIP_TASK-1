@@ -1,0 +1,146 @@
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url("img/sports.png");
+    background-size: cover;
+    background-position: center;
+}
+.menu{
+        margin: 80px;
+    }
+.menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        margin: 5px;
+        font-weight: bold;
+    }
+ .menu a:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5;
+    }
+    .logo{
+        color: white;
+        font-size: 50px;
+        padding-left: 100px;
+    }
+    .logo span{
+        color: orange;
+    }
+nav{
+        width: 100%;
+        height: 70px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;       
+}
+.content .textBox{
+text-align: center;
+}
+.textBox{
+    align-items: center;
+    text-align: center;
+}
+.content .textBox h2{
+    color:darkorange;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textBox h2 span{
+    font-size: 2em;
+    text-align: center;
+}
+.content .textBox p{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    align-items: center;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+
+/* SECTION 1 */
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    
+}
+.section-1 .section-1-item {
+    position: relative;
+    width: 15rem;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid rgb(228, 228, 228);
+}
+.section-1 .section-1-item img {
+    width: 100%;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 15px;
+    z-index: -1;
+}
+.section-1 .section-1-item .items-details {
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.section-1 .section-1-item .items-details p {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;    
+}
+.section-1 .section-1-item:hover {
+    box-shadow: 0px 1px 2px rgba(207, 207, 207, 0.5);
+    transition: all 0.1s;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:black;
+    color: white;
+
+  }
+  .footer-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .footer-content h3{
+    color: white;
+  }
+.footer-content span{
+    color: orange;
+}
+.footer-bottom{
+    background: #111;
+    width: 100%;
+    padding: 2px 0px;
+    color: white;
+    text-align: center;
+}
